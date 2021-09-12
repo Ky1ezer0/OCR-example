@@ -9,12 +9,12 @@ brew install ffmpeg
 ```
 
 Windows:
-Go to tesseract[https://github.com/tesseract-ocr/tesseract] to donwload
+Go to [tesseract](https://github.com/tesseract-ocr/tesseract) to donwload
 
 There are 2 image for testing:
 
 The credit card:
-https://github.com/ky1ez/OCR-example/blob/main/red.jpg
+![alt text](https://github.com/ky1ez/OCR-example/blob/main/red.jpg)
 
 The Google logo:
-https://github.com/ky1ez/OCR-example/blob/main/test.png
+![alt text](https://github.com/ky1ez/OCR-example/blob/main/test.png)
