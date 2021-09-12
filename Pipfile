@@ -9,6 +9,7 @@ matplotlib = "*"
 pytesseract = "*"
 pyautogui = "*"
 keyboard = "*"
+pyobjc = "*"
 
 [dev-packages]
 black = "*"
