@@ -29,5 +29,6 @@ for i in range(n_boxes):
         )
         images = cv2.rectangle(images, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
+print(pytesseract.image_to_string(gray))
 cv2.imshow("Result", images)
 cv2.waitKey(0)

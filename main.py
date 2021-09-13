@@ -10,7 +10,7 @@ if os.name == "nt":
     )
 
 images = cv2.imread("test.png")
-# gray = cv2.cvtColor(images, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(images, cv2.COLOR_BGR2GRAY)
 # cv2.imshow("Image", images)
 # cv2.imshow("Image Gray", gray)
 
@@ -29,5 +29,6 @@ for i in range(n_boxes):
         )
         images = cv2.rectangle(images, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
+print(pytesseract.image_to_string(gray))
 cv2.imshow("Result", images)
 cv2.waitKey(0)
