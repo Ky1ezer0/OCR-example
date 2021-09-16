@@ -10,7 +10,7 @@ pyautogui.PAUSE = 0.01
 click = 0
 # For windows
 if os.name == "nt":
-    while click < 5:
+    while click < 9:
         if (
             pyautogui.locateOnScreen("click.png", grayscale=True, confidence=0.9)
             != None
@@ -27,7 +27,7 @@ if os.name == "nt":
         print(datetime.now())
 # For macOS
 else:
-    while click < 5:
+    while click < 9:
         if (
             pyautogui.locateOnScreen("macClick.png", grayscale=True, confidence=0.9)
             != None
